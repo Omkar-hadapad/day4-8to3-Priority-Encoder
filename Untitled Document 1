@@ -1,0 +1,15 @@
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm day4_tb.I day4_tb.VALID_rtl day4_tb.VALID_structural day4_tb.Y_rtl day4_tb.Y_structural day4_tb.error_count day4_tb.expected_VALID day4_tb.expected_Y day4_tb.i
+Created probe 1
+ncsim> run
+==========================================
+DAY 4 - 8-to-3 PRIORITY ENCODER
+==========================================
+
+ALL TESTS PASSED
+Total input combinations tested = 256
+Simulation complete via $finish(1) at time 256 NS + 0
+./day4_tb.v:216     $finish;
+ncsim> 
